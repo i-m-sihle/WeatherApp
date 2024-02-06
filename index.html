@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6a9217fcde.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+          <input type="text" id="city-input" placeholder="Enter a city" />
+          <input type="submit" value="Search" />
+      </form>
+      <div class="content">
+          <div class="weather-info">
+              <h1 id="city-name">Johannesburg</h1>
+              <p id="date">11 November 2003</p>
+          </div>
+        <div class="sideinfo">
+          <div class="temperature">30°</div>
+          <div class="time" id="time">11:11</div>
+        </div>
+      </div>
+      <div class="weather-icon">
+        <i class="fas fa-sun"></i>
+        <p class="underimg">Clear day</p>
+      </div>
+
+      <div class="weekdays">
+        <div class="row">
+          <div class="col">
+            Monday
+          </div>
+          <div class="col">
+            Tuesday
+          </div>
+          <div class="col">
+            Wednesday
+          </div>
+          <div class="col">
+            Thursday
+          </div>
+          <div class="col">
+            Friday
+          </div>
+        </div>
+      </div>
+      <div class="weekdays-icons">
+        <div class="row">
+          <div class="col">
+            <i class="fa-solid fa-cloud-rain"></i>
+          </div>
+          <div class="col">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-cloud-sun"></i>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-cloud"></i>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-cloud-sun-rain"></i>
+          </div>
+        </div>
+      </div>
+      <div class="weekdays-weather">
+        <div class="row">
+          <div class="col">
+            <p>8° 20°</p>
+          </div>
+          <div class="col">
+            <p>4° 23°</p>
+          </div>
+          <div class="col">
+            <p>22° 4°</p>
+          </div>
+          <div class="col">
+            <p>18° 10°</p>
+          </div>
+          <div class="col">
+            <p>1° 17°</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
+>

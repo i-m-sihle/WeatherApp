@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    border: 2px solid #ccc;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  input[type="submit"]:hover {
+    background-color: lightblue;
+    color: #fff; 
+}
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .weather-info {
+    flex: 2;
+  }
+  
+  .sideinfo {
+    text-align: right;
+  }
+  
+  .weather-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weather-icon i {
+    font-size: 50px;
+    color: #f6d32d;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .temperature {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .time {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .underimg {
+    margin: 0;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .weather-info {
+    flex: 1;
+    margin-left: 30px;
+  }
+  
+  .sideinfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 80px;
+  }
+  
+  .weather-icon {
+    width: 100%;
+    text-align: center;
+    margin-left: -100px;
+  }
+  
+  .weekdays {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .weekdays .col {
+    text-align: center;
+    flex: 1;
+    white-space: nowrap;
+    padding: 5px;
+  }
+  
+  .weekdays-icons .row .col {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  
+  .weekdays-weather .row .col {
+    margin-left: 5px;
+  }
+  
