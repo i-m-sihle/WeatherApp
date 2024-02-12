@@ -32,6 +32,7 @@ function handleFormSubmit(event) {
     // Fetch weather data for the entered city
     fetchWeather(cityName);
 }
+
 function fetchWeather(cityName) {
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${cityName}&key=${apiKey}&units=metric`;
 
@@ -83,6 +84,7 @@ function fetchWeather(cityName) {
             let windSpeedElement = document.getElementById("wind-speed");
             windSpeedElement.textContent = data.wind.speed;
         })
+        
         .catch(error => {
             console.error("Error fetching weather data:", error);
             // Display error message to the user
