@@ -52,14 +52,18 @@ body {
     flex: 2;
   }
   
-  .sideinfo {
-    text-align: right;
-  }
+  
+.wind-speed {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
   
   .weather-icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0px;
   }
   
   .weather-icon i {
@@ -103,6 +107,7 @@ body {
   .weather-info {
     flex: 1;
     margin-left: 30px;
+    margin-bottom: 0px;
   }
   
   .sideinfo {
@@ -111,12 +116,15 @@ body {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 80px;
+    text-align: right;
+    text-align:center;
   }
   
   .weather-icon {
     width: 100%;
     text-align: center;
     margin-left: -100px;
+
   }
   
   .weekdays {
