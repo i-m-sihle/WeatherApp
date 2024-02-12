@@ -52,7 +52,7 @@ function fetchWeather(cityName) {
             let temperature = Math.round(data.temperature.current);
             temperatureElement.textContent = `${temperature}°`;
 
-            // Update time
+            // Update the time
             let timeContainer = document.getElementById("time");
             let currentDate = new Date(data.time * 1000); // Convert UNIX timestamp to milliseconds
             let hours = currentDate.getHours().toString().padStart(2, '0');
