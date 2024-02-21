@@ -129,7 +129,7 @@ footer {
 
 @media screen and (min-width: 600px) {
   .weather-app {
-    max-width: 600px;
+    max-width: 500px;
     margin: 40px auto;
   }
 
