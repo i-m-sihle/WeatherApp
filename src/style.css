@@ -127,25 +127,29 @@ footer {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 768px) {
   .weather-app {
-    max-width: 500px;
-    margin: 40px auto;
+    max-width: 100%;
+    margin: 20px;
   }
 
   .weather-app-data {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
-  .weather-app-temperature-container {
-    flex: 1;
+  .weather-app-data > div {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   .weather-forecast {
-    flex-direction: row;
+    justify-content: center;
   }
 
   .weather-forecast-day {
-    flex-basis: 15%;
+    width: auto;
+    margin: 0 10px;
   }
 }
+
